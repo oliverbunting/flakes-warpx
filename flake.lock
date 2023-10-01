@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "WarpX-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1696069698,
+        "narHash": "sha256-P7RdXB8ndlIpxC9WHKUD/8Jzkt1K1i5BsAMAE70nPxE=",
+        "owner": "ECP-WarpX",
+        "repo": "WarpX",
+        "rev": "4cc78e64641a6d6663febfa80576949c97727ec3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ECP-WarpX",
+        "repo": "WarpX",
+        "type": "github"
+      }
+    },
+    "amrex-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1696033428,
+        "narHash": "sha256-wC2uqrnGKE8IM1pWceOFPAouqB3fi6QWCGWvdH1QwE4=",
+        "owner": "AMReX-Codes",
+        "repo": "amrex",
+        "rev": "b95482d3b2ad6cab8318c867eb3b71b4f9ee11ac",
+        "type": "github"
+      },
+      "original": {
+        "owner": "AMReX-Codes",
+        "ref": "development",
+        "repo": "amrex",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1695825837,
+        "narHash": "sha256-4Ne11kNRnQsmSJCRSSNkFRSnHC4Y5gPDBIQGjjPfJiU=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "5cfafa12d57374f48bcc36fda3274ada276cf69e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-23.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "openpmd-api-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1694443398,
+        "narHash": "sha256-BLS9oyUl7/IAj53HuqHfAUofjd3QPsPrahkewzL3KpM=",
+        "owner": "openPMD",
+        "repo": "openPMD-api",
+        "rev": "8b087368ff4754e9cd0bb378d358d7065864f197",
+        "type": "github"
+      },
+      "original": {
+        "owner": "openPMD",
+        "repo": "openPMD-api",
+        "type": "github"
+      }
+    },
+    "picsar-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1690210464,
+        "narHash": "sha256-6kvopoFIXkBGWf9uquATDeAobybgMXh/0+zat31D2ww=",
+        "owner": "ECP-WarpX",
+        "repo": "picsar",
+        "rev": "aa54e985398c1d575abc7e6737cdbc660a13765f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ECP-WarpX",
+        "repo": "picsar",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "WarpX-src": "WarpX-src",
+        "amrex-src": "amrex-src",
+        "nixpkgs": "nixpkgs",
+        "openpmd-api-src": "openpmd-api-src",
+        "picsar-src": "picsar-src"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
